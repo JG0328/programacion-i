@@ -1,0 +1,29 @@
+Equipo: Tigres
+
+Cantidad de jugadores: 3
+
+Jugador con la camiseta 1: Pepe juega en la posición D, mide 174 cm y pesa 76 kg.
+
+Jugador con la camiseta 5: José juega en la posición F, mide 165 cm y pesa 80 kg.
+
+Jugador con la camiseta 10: Mateo juega en la posición P, mide 180 cm y pesa 92 kg.
+
+
+Equipo: Santiagueros
+
+Cantidad de jugadores: 2
+
+Jugador con la camiseta 3: Ramón juega en la posición P, mide 152 cm y pesa 78 kg.
+
+Jugador con la camiseta 6: Ronaldo juega en la posición D, mide 156 cm y pesa 85 kg.
+
+
+Equipo: Monumentales
+
+Cantidad de jugadores: 2
+
+Jugador con la camiseta 10: Juan juega en la posición M, mide 180 cm y pesa 67 kg.
+
+Jugador con la camiseta 4: Pablo juega en la posición M, mide 185 cm y pesa 90 kg.
+
+
