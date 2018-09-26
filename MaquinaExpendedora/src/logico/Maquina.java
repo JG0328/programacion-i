@@ -25,7 +25,7 @@ public class Maquina extends Thread {
 	private void proceso() {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		System.out.println("¡Bienvenido a la Máquina Expendedora!");
+		System.out.println("Â¡Bienvenido a la MÃ¡quina Expendedora!");
 
 		esperar(1500);
 
@@ -69,7 +69,7 @@ public class Maquina extends Thread {
 
 		esperar(1500);
 
-		System.out.println("Su elección: " + misOpciones.get(eleccion - 1));
+		System.out.println("Su elecciÃ³n: " + misOpciones.get(eleccion - 1));
 		System.out.println("Precio a pagar: " + "$" + misPrecios.get(eleccion - 1));
 
 		System.out.println("Procesando...");
@@ -86,10 +86,10 @@ public class Maquina extends Thread {
 			esperar(2000);
 
 		} else {
-			System.out.println("¡Aquí tiene su producto! Devuelta: $" + devuelta);
+			System.out.println("Â¡AquÃ­ tiene su producto! Devuelta: $" + devuelta);
 		}
 
-		System.out.println("¿Desea comprar algo más? [S/N]");
+		System.out.println("Â¿Desea comprar algo mÃ¡s? [S/N]");
 
 		String op = "";
 
@@ -103,7 +103,7 @@ public class Maquina extends Thread {
 		if (op.equalsIgnoreCase("n")) {
 			ejecutar = false;
 
-			System.out.println("¡Gracias por utilizar la máquina!");
+			System.out.println("Â¡Gracias por utilizar la mÃ¡quina!");
 		} else if (op.equalsIgnoreCase("s")) {
 			reiniciarMaquina();
 		}
@@ -122,7 +122,7 @@ public class Maquina extends Thread {
 	}
 
 	private void reiniciarMaquina() {
-		System.out.println("Reiniciando máquina...");
+		System.out.println("Reiniciando mÃ¡quina...");
 		esperar(2500);
 	}
 
