@@ -28,22 +28,31 @@ public class Maquina extends Thread {
 		System.out.println("¡Bienvenido a la Máquina Expendedora!");
 
 		esperar(1500);
-
-		System.out.println("Introduzca el dinero:");
-
+		
 		int dinero = 0;
 		int devuelta = 0;
 
-		try {
-			dinero = Integer.parseInt(br.readLine());
-		} catch (NumberFormatException | IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		do {
+			System.out.println("Introduzca el dinero:");
+			
+			dinero = 0;
 
-		System.out.println("Procesando...");
+			try {
+				dinero = Integer.parseInt(br.readLine());
+			} catch (NumberFormatException | IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 
-		esperar(1500);
+			System.out.println("Procesando...");
+
+			esperar(1500);
+
+			if (dinero % 25 != 0) {
+				System.out.println("Sólo se aceptan monedas de 25.");
+				esperar(1500);
+			}
+		} while (dinero % 25 != 0);
 
 		System.out.println("Elija una de las siguientes opciones:");
 
